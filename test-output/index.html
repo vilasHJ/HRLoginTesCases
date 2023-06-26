@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\vilas\eclipse-workspace\HRLoginTestCases\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 1 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="LoginInvalidData(abd@gmai.com, Abd@12445)">LoginInvalidData(abd@gmai.com, Abd@12445)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="LoginBlanktData( , Vilas147@)">LoginBlanktData( , Vilas147@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="LoginBlanktData(vilasjain9611@gmail.com,  )">LoginBlanktData(vilasjain9611@gmail.com,  )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="LoginBlanktData( ,  )">LoginBlanktData( ,  )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="LoginCorrectData(vilasjain147@gmail.com, Vilas147@)">LoginCorrectData(vilasjain147@gmail.com, Vilas147@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="LoginInvalidData(vilasjain147@gmai.com, Vilas147@)">LoginInvalidData(vilasjain147@gmai.com, Vilas147@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="LoginInvalidData(vilasjain9611@gmail.com, Vilas147)">LoginInvalidData(vilasjain9611@gmail.com, Vilas147)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="LoginPasswordWithLessCharacter( , Vilas1)">LoginPasswordWithLessCharacter( , Vilas1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="LoginPasswordWithLessCharacter(vilasjain9611@gmail.com, 1234)">LoginPasswordWithLessCharacter(vilasjain9611@gmail.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Registration" class="method navigator-link" hash-for-method="RegistrationBlankData">RegistrationBlankData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Registration" class="method navigator-link" hash-for-method="RegistrationDuplicateUser">RegistrationDuplicateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Registration" class="method navigator-link" hash-for-method="RegistrationIncorrectEmailID">RegistrationIncorrectEmailID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Registration" class="method navigator-link" hash-for-method="RegistrationInvalidPassword">RegistrationInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Registration" class="method navigator-link" hash-for-method="RegistrationInvalidPhoneNumber">RegistrationInvalidPhoneNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Registration" class="method navigator-link" hash-for-method="RegistrationPositive">RegistrationPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Login.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginInvalidData(abd@gmai.com, Abd@12445)">
+                  </a> <!-- LoginInvalidData(abd@gmai.com, Abd@12445) -->
+                  <span class="method-name">LoginInvalidData</span>
+                  <span class="parameters">(abd@gmai.com, Abd@12445)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Login Failed] but found [Email Id or Username
+Password
+Login]
+	at Login.Login.LoginInvalidData(Login.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Login.Registration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrationBlankData">
+                  </a> <!-- RegistrationBlankData -->
+                  <span class="method-name">RegistrationBlankData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrationDuplicateUser">
+                  </a> <!-- RegistrationDuplicateUser -->
+                  <span class="method-name">RegistrationDuplicateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrationIncorrectEmailID">
+                  </a> <!-- RegistrationIncorrectEmailID -->
+                  <span class="method-name">RegistrationIncorrectEmailID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrationInvalidPassword">
+                  </a> <!-- RegistrationInvalidPassword -->
+                  <span class="method-name">RegistrationInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrationInvalidPhoneNumber">
+                  </a> <!-- RegistrationInvalidPhoneNumber -->
+                  <span class="method-name">RegistrationInvalidPhoneNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrationPositive">
+                  </a> <!-- RegistrationPositive -->
+                  <span class="method-name">RegistrationPositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Login.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginBlanktData( , Vilas147@)">
+                  </a> <!-- LoginBlanktData( , Vilas147@) -->
+                  <span class="method-name">LoginBlanktData</span>
+                  <span class="parameters">( , Vilas147@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginBlanktData(vilasjain9611@gmail.com,  )">
+                  </a> <!-- LoginBlanktData(vilasjain9611@gmail.com,  ) -->
+                  <span class="method-name">LoginBlanktData</span>
+                  <span class="parameters">(vilasjain9611@gmail.com,  )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginBlanktData( ,  )">
+                  </a> <!-- LoginBlanktData( ,  ) -->
+                  <span class="method-name">LoginBlanktData</span>
+                  <span class="parameters">( ,  )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginCorrectData(vilasjain147@gmail.com, Vilas147@)">
+                  </a> <!-- LoginCorrectData(vilasjain147@gmail.com, Vilas147@) -->
+                  <span class="method-name">LoginCorrectData</span>
+                  <span class="parameters">(vilasjain147@gmail.com, Vilas147@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginInvalidData(vilasjain147@gmai.com, Vilas147@)">
+                  </a> <!-- LoginInvalidData(vilasjain147@gmai.com, Vilas147@) -->
+                  <span class="method-name">LoginInvalidData</span>
+                  <span class="parameters">(vilasjain147@gmai.com, Vilas147@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginInvalidData(vilasjain9611@gmail.com, Vilas147)">
+                  </a> <!-- LoginInvalidData(vilasjain9611@gmail.com, Vilas147) -->
+                  <span class="method-name">LoginInvalidData</span>
+                  <span class="parameters">(vilasjain9611@gmail.com, Vilas147)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPasswordWithLessCharacter( , Vilas1)">
+                  </a> <!-- LoginPasswordWithLessCharacter( , Vilas1) -->
+                  <span class="method-name">LoginPasswordWithLessCharacter</span>
+                  <span class="parameters">( , Vilas1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPasswordWithLessCharacter(vilasjain9611@gmail.com, 1234)">
+                  </a> <!-- LoginPasswordWithLessCharacter(vilasjain9611@gmail.com, 1234) -->
+                  <span class="method-name">LoginPasswordWithLessCharacter</span>
+                  <span class="parameters">(vilasjain9611@gmail.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vilas\eclipse-workspace\HRLoginTestCases\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Login.Login&quot;/&gt;
+      &lt;class name=&quot;Login.Registration&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'RegistrationPositive')
+data.setCell(0, 2, 'Login.Registration')
+data.setCell(0, 3, 76883);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginCorrectData')
+data.setCell(1, 2, 'Login.Login')
+data.setCell(1, 3, 20283);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginPasswordWithLessCharacter')
+data.setCell(2, 2, 'Login.Login')
+data.setCell(2, 3, 15333);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginBlanktData')
+data.setCell(3, 2, 'Login.Login')
+data.setCell(3, 3, 15313);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginBlanktData')
+data.setCell(4, 2, 'Login.Login')
+data.setCell(4, 3, 15266);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginPasswordWithLessCharacter')
+data.setCell(5, 2, 'Login.Login')
+data.setCell(5, 3, 15252);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginBlanktData')
+data.setCell(6, 2, 'Login.Login')
+data.setCell(6, 3, 15240);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LoginInvalidData')
+data.setCell(7, 2, 'Login.Login')
+data.setCell(7, 3, 10305);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LoginInvalidData')
+data.setCell(8, 2, 'Login.Login')
+data.setCell(8, 3, 10296);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'LoginInvalidData')
+data.setCell(9, 2, 'Login.Login')
+data.setCell(9, 3, 10289);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'RegistrationDuplicateUser')
+data.setCell(10, 2, 'Login.Registration')
+data.setCell(10, 3, 5240);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'RegistrationIncorrectEmailID')
+data.setCell(11, 2, 'Login.Registration')
+data.setCell(11, 3, 1107);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'RegistrationInvalidPhoneNumber')
+data.setCell(12, 2, 'Login.Registration')
+data.setCell(12, 3, 1054);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'RegistrationInvalidPassword')
+data.setCell(13, 2, 'Login.Registration')
+data.setCell(13, 3, 1019);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'RegistrationBlankData')
+data.setCell(14, 2, 'Login.Registration')
+data.setCell(14, 3, 752);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginBlanktData( , Vilas147@)</span>
+                <span class="method-start">10025 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">25342 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">25665 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginBlanktData(vilasjain9611@gmail.com,  )</span>
+                <span class="method-start">30417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">45688 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">46035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginBlanktData( ,  )</span>
+                <span class="method-start">57193 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">72435 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">72778 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginCorrectData(vilasjain147@gmail.com, Vilas147@)</span>
+                <span class="method-start">79400 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">99693 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">100011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginInvalidData(vilasjain147@gmai.com, Vilas147@)</span>
+                <span class="method-start">114190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">124483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">124770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginInvalidData(vilasjain9611@gmail.com, Vilas147)</span>
+                <span class="method-start">134065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">144367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">144657 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginInvalidData(abd@gmai.com, Abd@12445)</span>
+                <span class="method-start">160883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">171194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">171512 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPasswordWithLessCharacter( , Vilas1)</span>
+                <span class="method-start">190207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">205463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">205786 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPasswordWithLessCharacter(vilasjain9611@gmail.com, 1234)</span>
+                <span class="method-start">215102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">230437 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">230751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistrationPositive</span>
+                <span class="method-start">235621 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">312506 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">312885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistrationDuplicateUser</span>
+                <span class="method-start">319433 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">324674 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">325005 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistrationInvalidPassword</span>
+                <span class="method-start">340698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">341719 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">341976 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistrationInvalidPhoneNumber</span>
+                <span class="method-start">345408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">346463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">346657 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistrationBlankData</span>
+                <span class="method-start">354370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">355122 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginSetup</span>
+                <span class="method-start">355243 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistrationIncorrectEmailID</span>
+                <span class="method-start">362350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">363458 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

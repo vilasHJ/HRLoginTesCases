@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-02T18:05:02 IST" name="Suite" finished-at="2023-05-02T18:11:06 IST" duration-ms="363670">
+    <groups>
+    </groups>
+    <test started-at="2023-05-02T18:05:02 IST" name="Test" finished-at="2023-05-02T18:11:06 IST" duration-ms="363670">
+      <class name="Login.Registration">
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:08:53 IST" name="LoginSetup" finished-at="2023-05-02T18:08:58 IST" duration-ms="4870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="RegistrationPositive()[pri:1, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:08:58 IST" name="RegistrationPositive" finished-at="2023-05-02T18:10:15 IST" duration-ms="76883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPositive -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:15 IST" name="TearDown" finished-at="2023-05-02T18:10:15 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:15 IST" name="LoginSetup" finished-at="2023-05-02T18:10:22 IST" duration-ms="6548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="RegistrationDuplicateUser()[pri:2, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:22 IST" name="RegistrationDuplicateUser" finished-at="2023-05-02T18:10:27 IST" duration-ms="5240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationDuplicateUser -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:27 IST" name="TearDown" finished-at="2023-05-02T18:10:27 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:27 IST" name="LoginSetup" finished-at="2023-05-02T18:10:43 IST" duration-ms="15693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="RegistrationInvalidPassword()[pri:3, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:43 IST" name="RegistrationInvalidPassword" finished-at="2023-05-02T18:10:44 IST" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationInvalidPassword -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:44 IST" name="TearDown" finished-at="2023-05-02T18:10:44 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:44 IST" name="LoginSetup" finished-at="2023-05-02T18:10:48 IST" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="RegistrationInvalidPhoneNumber()[pri:4, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:48 IST" name="RegistrationInvalidPhoneNumber" finished-at="2023-05-02T18:10:49 IST" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationInvalidPhoneNumber -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:49 IST" name="TearDown" finished-at="2023-05-02T18:10:49 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:49 IST" name="LoginSetup" finished-at="2023-05-02T18:10:57 IST" duration-ms="7713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="RegistrationBlankData()[pri:5, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:57 IST" name="RegistrationBlankData" finished-at="2023-05-02T18:10:58 IST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationBlankData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:58 IST" name="TearDown" finished-at="2023-05-02T18:10:58 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:10:58 IST" name="LoginSetup" finished-at="2023-05-02T18:11:05 IST" duration-ms="7107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="RegistrationIncorrectEmailID()[pri:6, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:11:05 IST" name="RegistrationIncorrectEmailID" finished-at="2023-05-02T18:11:06 IST" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationIncorrectEmailID -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Registration@1e683a3e]" started-at="2023-05-02T18:11:06 IST" name="TearDown" finished-at="2023-05-02T18:11:06 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Login.Registration -->
+      <class name="Login.Login">
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:05:02 IST" name="LoginSetup" finished-at="2023-05-02T18:05:12 IST" duration-ms="10023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="LoginBlanktData(java.lang.String,java.lang.String)[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:05:12 IST" name="LoginBlanktData" data-provider="getData2" finished-at="2023-05-02T18:05:28 IST" duration-ms="15313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vilas147@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginBlanktData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:05:28 IST" name="TearDown" finished-at="2023-05-02T18:05:28 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:05:28 IST" name="LoginSetup" finished-at="2023-05-02T18:05:33 IST" duration-ms="4752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="LoginBlanktData(java.lang.String,java.lang.String)[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:05:33 IST" name="LoginBlanktData" data-provider="getData2" finished-at="2023-05-02T18:05:48 IST" duration-ms="15266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vilasjain9611@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginBlanktData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:05:48 IST" name="TearDown" finished-at="2023-05-02T18:05:48 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:05:48 IST" name="LoginSetup" finished-at="2023-05-02T18:06:00 IST" duration-ms="11158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="LoginBlanktData(java.lang.String,java.lang.String)[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:06:00 IST" name="LoginBlanktData" data-provider="getData2" finished-at="2023-05-02T18:06:15 IST" duration-ms="15240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginBlanktData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:06:15 IST" name="TearDown" finished-at="2023-05-02T18:06:15 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:06:15 IST" name="LoginSetup" finished-at="2023-05-02T18:06:22 IST" duration-ms="6622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="LoginCorrectData(java.lang.String,java.lang.String)[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:06:22 IST" name="LoginCorrectData" data-provider="getData" finished-at="2023-05-02T18:06:42 IST" duration-ms="20283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vilasjain147@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vilas147@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCorrectData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:06:42 IST" name="TearDown" finished-at="2023-05-02T18:06:42 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:06:42 IST" name="LoginSetup" finished-at="2023-05-02T18:06:57 IST" duration-ms="14178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="LoginInvalidData(java.lang.String,java.lang.String)[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:06:57 IST" name="LoginInvalidData" data-provider="getData1" finished-at="2023-05-02T18:07:07 IST" duration-ms="10289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vilasjain147@gmai.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vilas147@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:07:07 IST" name="TearDown" finished-at="2023-05-02T18:07:07 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:07:07 IST" name="LoginSetup" finished-at="2023-05-02T18:07:16 IST" duration-ms="9295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="LoginInvalidData(java.lang.String,java.lang.String)[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:07:16 IST" name="LoginInvalidData" data-provider="getData1" finished-at="2023-05-02T18:07:27 IST" duration-ms="10296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vilasjain9611@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vilas147]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:07:27 IST" name="TearDown" finished-at="2023-05-02T18:07:27 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:07:27 IST" name="LoginSetup" finished-at="2023-05-02T18:07:43 IST" duration-ms="16226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="LoginInvalidData(java.lang.String,java.lang.String)[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:07:43 IST" name="LoginInvalidData" data-provider="getData1" finished-at="2023-05-02T18:07:54 IST" duration-ms="10305" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abd@gmai.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abd@12445]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Login Failed] but found [Email Id or Username
+Password
+Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Login Failed] but found [Email Id or Username
+Password
+Login]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.Login.LoginInvalidData(Login.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:07:54 IST" name="TearDown" finished-at="2023-05-02T18:07:54 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:07:54 IST" name="LoginSetup" finished-at="2023-05-02T18:08:13 IST" duration-ms="18694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="LoginPasswordWithLessCharacter(java.lang.String,java.lang.String)[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:08:13 IST" name="LoginPasswordWithLessCharacter" data-provider="getData3" finished-at="2023-05-02T18:08:28 IST" duration-ms="15252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vilas1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPasswordWithLessCharacter -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:08:28 IST" name="TearDown" finished-at="2023-05-02T18:08:28 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="LoginSetup()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:08:28 IST" name="LoginSetup" finished-at="2023-05-02T18:08:38 IST" duration-ms="9316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method signature="LoginPasswordWithLessCharacter(java.lang.String,java.lang.String)[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:08:38 IST" name="LoginPasswordWithLessCharacter" data-provider="getData3" finished-at="2023-05-02T18:08:53 IST" duration-ms="15333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vilasjain9611@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPasswordWithLessCharacter -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login.Login@5fd4f8f5]" started-at="2023-05-02T18:08:53 IST" name="TearDown" finished-at="2023-05-02T18:08:53 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Login.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
